@@ -85,7 +85,20 @@ main {
 #features {
   display: flex;
   flex-direction: column;
-  padding-left: 10rem;
+
+}
+.feature {
+  display: flex;
+  margin-bottom: 3.5rem;
+}
+.last-feature {
+margin-bottom:1rem;
+}
+.premium {
+  padding-left: 1.2rem;
+}
+.item {
+  margin-left: 4rem
 }
 #features h2 {
   margin-top: 4rem;
@@ -102,20 +115,13 @@ main {
 }
 
 #fire-icon {
-  position: relative;
-  bottom: -7.3rem;
-  left: -6.5rem;
+ margin-top: 4rem;
+ padding-left: .3rem;
 }
 #truck-icon {
-  position: relative;
-  bottom: -3.5rem;
-  left: -7rem;
+ 
 }
-#battery-icon {
-  position: relative;
-  bottom: -3rem;
-  left: -6.5rem;
-}
+#battery-icon 
 .fa,
 .fas {
   font-weight: 900;
@@ -134,7 +140,7 @@ main {
 #fast-shipping-description {
   margin-top: -1.2rem;
   text-align: start;
-  max-width: 100vh;
+max-width: 61vh;
 }
 
 /* How it Works Video */
@@ -300,6 +306,17 @@ a {
     padding-left: 0rem;
     width: 30%;
   }
+ 
+  .premium {
+    padding-left: 0rem;
+  }
+  .item {
+    margin-left: 0;
+  
+  }
+  .item h3 {
+    text-align: center;
+  }
 
   #features h2 {
     width: 30rem;
@@ -319,8 +336,9 @@ a {
   #quality-assurance-description,
   #fast-shipping-description {
     margin-top: -1.2rem;
-    text-align: start;
-    width: 31rem;
+    text-align: center;
+    width: 30.1rem;
+   
   }
 
   #fast-shipping-description {
